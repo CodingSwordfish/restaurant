@@ -1,4 +1,5 @@
 import restImage from "./restaurant.jpg";
+import "./styles.css";
 
 
 export default function createHomePage(contentDiv) {
@@ -13,7 +14,7 @@ export default function createHomePage(contentDiv) {
     contentDiv.appendChild(img);
   
     const p1 = document.createElement('p');
-    p1.textContent = 'Experience the culinary delights of [Restaurant Name], where we offer a tantalizing array of dishes crafted with passion and fresh, locally sourced ingredients. Our menu boasts a diverse selection of flavors, from classic comfort food to innovative gourmet creations.';
+    p1.textContent = 'Experience the culinary delights of Bryans Hotel, where we offer a tantalizing array of dishes crafted with passion and fresh, locally sourced ingredients. Our menu boasts a diverse selection of flavors, from classic comfort food to innovative gourmet creations.';
     contentDiv.appendChild(p1);
   
     const p2 = document.createElement('p');
